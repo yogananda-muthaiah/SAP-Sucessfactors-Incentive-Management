@@ -18,3 +18,6 @@
 
 ### Release Calendar
 * https://groups.community.sap.com/t5/product-and-customer-updates/sap-spm-2024-release-schedule/ba-p/298930
+
+### Learning Journey
+* https://help.sap.com/learning-journeys/0b5e2b8b46c446d1992e7680094762cd
