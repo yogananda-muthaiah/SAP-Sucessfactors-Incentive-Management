@@ -1,5 +1,14 @@
 # SAP-Sucessfactors-Incentive-Management
 
+Oracle
+
+
+HANA
+
+
+HANA (Running in Google Cloud Platform)
+
+
 
 
 
