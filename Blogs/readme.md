@@ -82,16 +82,46 @@
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-how-to-connect-microsoft-powerbi/ba-p/13520662
 * https://community.sap.com/t5/financial-management-blogs-by-sap/configure-your-own-idp-sso-in-sap-cpq/ba-p/13513808
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/setup-sso-in-sap-ias-with-auth0-for-sap-commissions/ba-p/13512755
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commission-dashboards-low-code-no-code-lcnc/ba-p/13501188
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-scim-v3-apis-for-ips-top-down-bottom-up-sync/ba-p/13519021
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-smart-data-integration-sdi-part-1/ba-p/13512922
+* https://community.sap.com/t5/technology-blogs-by-sap/sap-identity-authentication-ias-security-features/ba-p/13501866
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-enable-totp-2mfa-from-ias/ba-p/13508269
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/how-to-remove-stale-results-from-pipeline-job/ba-p/13507893
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-sftp-integration-suite-use-case/ba-p/13495669
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/date-functions-sap-commissions/ba-p/13468006
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/string-functions-sap-commissions/ba-p/13484818
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-various-data-transfer-flow-amp-results/ba-p/13477084
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-sales-cloud-for-customer-c4c-mashup-sap-commissions/ba-p/13472877
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/using-kubernetes-jobs-to-scale-both-up-and-down/ba-p/13470306
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-jwt-token-authentication/ba-p/13475497
+* https://community.sap.com/t5/technology-blogs-by-sap/sap-commissions-must-to-know-about-ias-ips-process/ba-p/13479515
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-gdpr-process/ba-p/13465556
+* https://community.sap.com/t5/technology-blogs-by-sap/big-statistics-server-table-hint-to-improve-performance/ba-p/13490297
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-how-to-know-your-hana-database-system-limitation/ba-p/13487343
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/apm-producerpro-api-sync-to-sap-commissions-part-3/ba-p/13483101
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/basics-of-git-webide-integration-with-git/ba-p/13477506
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/learn-how-to-adopt-version-control-for-every-project/ba-p/13464368
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/how-to-set-immediate-alert-when-pipeline-job-gets-failed/ba-p/13466244
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/how-to-use-plugin-s-efficiently-to-derive-your-calculations/ba-p/13491693
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/integration-with-docusign-for-plan-distribution-save-paper-amp-time/ba-p/13460514
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/apm-producerpro-api-sync-to-sap-commissions-part-2/ba-p/13460186
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/agent-performance-management-setting-up-sso-on-your-own/ba-p/13491111
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/hana-most-common-sql-statements-amp-functions/ba-p/13488167
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/apm-producerpro-api-sync-to-sap-commissions-part-1/ba-p/13486529
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/15-tools-required-for-spm-developers-consultant/ba-p/13480440
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/configure-sap-commissions-in-salesforce-sfdc/ba-p/13477402
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/commission-data-loader-cdl-api-s/ba-p/13470680
+* https://community.sap.com/t5/customer-relationship-management-blogs-by-sap/sap-successfactors-incentive-management-information-in-one-page-%EF%B8%8F/ba-p/13469596
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-pipeline-runtime-summary/ba-p/13487539
+* https://community.sap.com/t5/technology-blogs-by-sap/enable-saml-2-0-from-sap-ias-to-sap-commissions/ba-p/13472897
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/automate-early-warning-through-alert-notification/ba-p/13428262
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-puts-the-security-and-safety-of-your-data-first/ba-p/13449990
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/xdl-express-data-loader-data-extract-process/ba-p/13447707
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/how-to-enable-single-sign-on-sso-from-sap-commissions/ba-p/13442859
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-rest-api-gt-part-4-how-to-call-restapi-v2-through-postman/ba-p/13440901
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-rest-api-gt-part-3-api-documentation/ba-p/13433049
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-rest-api-gt-part-2-assign-role-to-user/ba-p/13432889
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-rest-api-gt-part-1-create-role/ba-p/13432190
 *
 *
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-* 
