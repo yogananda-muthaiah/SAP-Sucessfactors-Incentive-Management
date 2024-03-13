@@ -1,13 +1,11 @@
 # SAP-Sucessfactors-Incentive-Management
 
-Oracle
 
 
-HANA
 
+### Blogs
 
-HANA (Running in Google Cloud Platform)
-
+### Ask any questions
 
 
 
