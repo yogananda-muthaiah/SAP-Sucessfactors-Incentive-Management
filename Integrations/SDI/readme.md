@@ -1,6 +1,9 @@
 
 ### SDI Help Documentation
 
+### SAP Support Ticket Component
+[X] HAN-DI
+
 ### Download
 
 
@@ -11,7 +14,6 @@
 
 
 ### SDI Blogs
-
 
 * [SAP Commissions-Smart-Data-Integration-SDI-Part-1](https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-smart-data-integration-sdi-part-1/ba-p/13512922)
 * [SAP Commissions-Smart-Data-Integration-SDI-Part-2](https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-smart-data-integration-sdi-part-2/ba-p/13504431)
