@@ -1,5 +1,5 @@
 
-### SAP Blogs Published from Yoga
+### SAP Blogs Published from Yoga 📝 
 
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/step-by-step-guide-establishing-on-premise-or-cloud-sftp-connectivity-in/ba-p/13605514
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-sf-incentive-management-hana-upgrade-sp-07-sdi-changes/ba-p/13583244
