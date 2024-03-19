@@ -11,6 +11,8 @@
 ### Crystal Reports, Developer for Visual Studio Downloads
 * https://help.sap.com/docs/SUPPORT_CONTENT/crystalreports/3354091173.html
 
+### SAP Analytics Business Intelligence Statement of Direction
+* https://www.sap.com/documents/2020/03/908ee705-8a7d-0010-87a3-c30de2ffd8ff.html
 
 ### Function Library
 
