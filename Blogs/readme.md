@@ -64,7 +64,7 @@
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-crud-api-for-salesorder-salestransaction/ba-p/13547303
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-visualizing-track-incentives-on-leafletjs/ba-p/13545730
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-cap-consuming-files-based-part-2/ba-p/13545645
-* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-cap-consuming-files-based-part-1/ba-p/13545505****
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-cap-consuming-files-based-part-1/ba-p/13545505
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-sap-successfactors-integration/ba-p/13539734
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-under-the-hood-of-stage-hooks/ba-p/13534003
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/introducing-cap-to-sap-commissions/ba-p/13532266
