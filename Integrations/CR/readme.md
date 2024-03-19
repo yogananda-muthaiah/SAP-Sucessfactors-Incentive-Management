@@ -6,6 +6,7 @@
 * https://help.sap.com/docs/SUPPORT_CONTENT/crystalreports/3354088411.html
 * https://help.sap.com/docs/SUPPORT_CONTENT/crystalreports/3354091173.html
 * https://www.sap.com/documents/2016/06/f871031e-757c-0010-82c7-eda71af511fa.html
+* https://community.sap.com/t5/technology-blogs-by-sap/unv-is-dead-long-live-unx/ba-p/13568331
 
 
 ### Crystal Reports, Developer for Visual Studio Downloads
