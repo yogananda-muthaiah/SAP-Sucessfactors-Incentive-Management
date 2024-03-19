@@ -18,3 +18,9 @@
 ### Function Library
 
 * https://www.milletsoftware.com/CUT_Light_User_Manual/#Known%20Issues%20and%20Limitation
+
+### Standard Functions
+* https://help.sap.com/docs/SAP_CRYSTAL_REPORTS_FOR_ENTERPRISE/14191c53df3a4d13aeb24ea3bef63abd/47878c336e041014910aba7db0e91070.html?version=2016%20SP3
+
+### Custom Functions
+* https://help.sap.com/docs/SAP_CRYSTAL_REPORTS,_DEVELOPER_VERSION_FOR_MICROSOFT_VISUAL_STUDIO/0d6684e153174710b8b2eb114bb7f843/45b499b16e041014910aba7db0e91070.html
