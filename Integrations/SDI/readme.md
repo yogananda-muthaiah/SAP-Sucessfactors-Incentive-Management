@@ -24,3 +24,8 @@
 * [SAP Commissions-Smart-Data-Integration-SDI-Part-7B](https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-smart-data-integration-sdi-part-7c/ba-p/13561951)
 * [SAP Commissions-Smart-Data-Integration-SDI-Part-7C](https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-smart-data-integration-sdi-part-7b/ba-p/13559343)
 * [SAP Commissions-Smart-Data-Integration-SDI-Part-7D](https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-smart-data-integration-sdi-part-7d/ba-p/13561984)
+
+
+
+
+* [SAP Commissions - What I wish I had known about 🔗Smart Data Integration -SDI](https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-what-i-wish-i-had-known-about-smart-data-integration-sdi/ba-p/13569491)
