@@ -6,3 +6,7 @@
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-embedded-analytics-configuration-custom-data-model/ba-p/13568647
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-embedded-analytics-teams/ba-p/13566430
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-embedded-analytics-sac-api-endpoints/ba-p/13548173
+
+
+### SAC Best Practices
+* https://pages.community.sap.com/topics/cloud-analytics/best-practices-troubleshooting
