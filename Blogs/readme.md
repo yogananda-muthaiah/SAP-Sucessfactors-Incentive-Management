@@ -54,6 +54,7 @@
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/introducing-touchless-deployment/ba-p/13529855
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-5-tips-to-improve-pipeline-runtime/ba-p/13528035
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-understand-all-the-api-endpoint-logic/ba-p/13543505
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-usage-metrics-payee-compliance-check/ba-p/13499010
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-rest-api-pagination/ba-p/13540062
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-geospatial-mapping-improves-profits/ba-p/13522080
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/how-to-encrypt-and-decrypt-files-using-gpg-sap-commissions/ba-p/13532348
