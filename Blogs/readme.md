@@ -7,7 +7,7 @@
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/integrating-azure-data-factory-with-sap-successfactors-incentive-management/ba-p/13576369
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-successfactors-incentive-management-how-rag-can-benefit-sales-reps/ba-p/13576013
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-successfactors-incentive-management-guide-to-xdl-apis/ba-p/13580577
-* https://community.sap.com/t5/human-capital-management-blogs-by-sap/new-dashboards-available-for-payees-sf-incentive-management-portal/ba-p/13572146****
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/new-dashboards-available-for-payees-sf-incentive-management-portal/ba-p/13572146
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/using-sap-build-work-zone-advanced-edition-to-streamline-sap-commissions/ba-p/13574918
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-cdl-custom-inbound-file-processing-byod/ba-p/13580343
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/troubleshooting-steps-for-embedded-analytics-authentication-and/ba-p/13579584
