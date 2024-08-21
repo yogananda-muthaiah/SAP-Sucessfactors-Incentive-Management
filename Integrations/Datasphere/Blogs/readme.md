@@ -8,3 +8,4 @@
 * https://community.sap.com/t5/technology-blogs-by-members/integration-between-sap-datasphere-and-sap-analytics-cloud-blog-5/ba-p/13750388
 * https://community.sap.com/t5/technology-blogs-by-sap/sap-datasphere-content-networkpackage-transport-via-btp-transport/ba-p/13759735
 * https://help.sap.com/doc/datasphere/1.0/en-US/attachments/4287545383/Using_SAP_Cloud_Integration_to_ConsumeConnect_to_Datasphere_OData_API_with_OAuth_20.pdf
+* https://community.sap.com/t5/technology-blogs-by-sap/understanding-and-documenting-the-communication-flow-in-remote-table/ba-p/13801280
