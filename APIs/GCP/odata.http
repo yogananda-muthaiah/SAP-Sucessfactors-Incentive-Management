@@ -1,0 +1,90 @@
+@clientid = 
+@clientsecret = 
+@k8 = https://XXX.app.commissions.cloud.sap
+@ias = https://XXXXX.accounts.ondemand.com
+
+
+###
+# @name login
+POST {{ias}}/oauth2/token?grant_type=client_credentials
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic {{clientid}}:{{clientsecret}}
+
+###
+@accessToken = {{login.response.body.access_token}}
+
+
+###
+GET {{k8}}/cng-pipeline/odata/$metadata?$format=json
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/cng-pipeline/odata/PipelineRuns?$skip=0&$top=11
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+GET {{k8}}/cng-pipeline/odata/Payments
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET https://g0cb.app.commissions.cloud.sap/cng-pipeline/odata/Payments?$expand=Calendar
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/cng-pipeline/odata/PipelineRuns?$filter=StartTime ge '2024-01-01' and StopTime lt '2024-05-08'
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/cng-pipeline/odata/PipelineRuns?$filter=BatchName eq 'OData-Title21'
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+POST {{k8}}/cng-pipeline/odata/PipelineRuns
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{     
+    "BatchName": "OData-Title21",     
+    "StageType": "ValidateAndTransfer",
+    "stageTables": [
+		"Participant"
+	],    
+    "RunMode": "all",     
+    "Revalidate":"all",     
+    "Module": "OrganizationData",     
+    "CalendarName": "Main Monthly Calendar",     
+    "TraceLevel": "status",     
+    "Command": "Import",     
+    "ProcessingUnit": "Europe",     
+    "UserId": "Yoga" 
+}
+
+###
+POST {{k8}}/cng-pipeline/odata/PipelineRuns
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{
+    "CalendarName": "Main Monthly Calendar",
+    "PeriodName": "January 2024",
+    "ProcessingUnit":"Europe",
+    "Defer":false,
+    "RemoveStaleResults":false,
+    "StageType":"CompensateAndPay",
+    "RunETL":false,
+    "RunDataExtracts":true,
+    "DataExtractsFileType":"PAYOUTEXTRACT",
+    "RunMode":"full",
+    "OnDemand":true,
+    "TraceLevel":"status",
+    "Command":"PipelineRun",
+    "UserId":"yogananda.muthaiah@sap.com"
+}
