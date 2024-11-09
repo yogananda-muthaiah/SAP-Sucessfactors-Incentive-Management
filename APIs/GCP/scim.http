@@ -1,0 +1,46 @@
+@clientid = 
+@clientsecret = 
+@k8 = https://XXX.app.commissions.cloud.sap
+@ias = https://azr7m8zct.accounts.ondemand.com
+  
+###  API Documentation
+### https://XXXX.app.commissions.cloud.sap/usersvc/admin/services/scim/v2/apidoc/#/
+
+###
+# @name login
+POST {{ias}}/oauth2/token?grant_type=client_credentials
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic {{clientid}}:{{clientsecret}}
+
+###
+@accessToken = {{login.response.body.access_token}}
+
+###
+GET {{k8}}/usersvc/portal/services/scim/v2/Users
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/usersvc/admin/services/scim/v2/Users?startIndex=0&count=100
+Authorization: Bearer {{accessToken}}
+Content-Type: application/scim+json
+
+###
+GET {{k8}}/usersvc/admin/services/scim/v2/Users?filter=id eq 9
+Authorization: Bearer {{accessToken}}
+Content-Type: application/scim+json
+
+###
+GET {{k8}}/usersvc/admin/services/scim/v2/Users?filter=userName eq "yogananda.muthaiah@sap.com"
+Authorization: Bearer {{accessToken}}
+Content-Type: application/scim+json
+
+###
+GET {{k8}}/usersvc/admin/services/scim/v2/Users?startIndex=101&count=100
+Authorization: Bearer {{accessToken}}
+Content-Type: application/scim+json
+
+###
+GET {{k8}}/usersvc/admin/services/scim/v2/groups
+Authorization: Bearer {{accessToken}}
+Content-Type: application/scim+json
