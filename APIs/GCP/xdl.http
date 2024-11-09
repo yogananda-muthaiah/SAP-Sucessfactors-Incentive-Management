@@ -1,1 +1,110 @@
 
+### CDL API Documentation  - https://g0cb.app.commissions.cloud.sap/cdl/swagger-ui/index.html#/
+
+@k8 = https://XXX.app.commissions.cloud.sap
+@clientid = 
+@clientsecret = 
+
+
+# @name login
+POST https://azr7m8zct.accounts.ondemand.com/oauth2/token?grant_type=client_credentials
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic {{clientid}}:{{clientsecret}}
+
+###
+@accessToken = {{login.response.body.access_token}}
+
+### working
+
+POST {{k8}}/cdl/api/v1/job/getAllJobs
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{"tenant":"fa163ee8-5756-1eed-93f7-45bcf34ce16e","page":1,"size":12,
+"searchCriterias":
+[{"key":"fileName","operation":"CONTAINS",
+"value":"CUSTOMUPLOAD_DEV_20240328_203300_RFM.txt"}]}
+
+
+###
+POST {{k8}}/cdl/api/v1/job/getAllJobs
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{"tenant":"fa163ee8-5756-1eed-93f7-45bcf34ce16e","page":1,"size":12}
+
+### Not Working 
+
+POST {{k8}}/cdl/rest/jobService/getAllJobs
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{"tenant":"fa163ee8-5756-1eed-93f7-45bcf34ce16e","page":1,"size":12,
+"searchCriterias":
+[{"key":"fileName","operation":"CONTAINS",
+"value":"CUSTOMUPLOAD_DEV_20240328_203300_RFM.txt"}]}
+
+
+###  Not working
+GET {{k8}}/cdl/api/v2/jobs
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+["CUSTOMUPLOAD_DEV_20240328_203300_RFM.txt"]
+
+###  Working 
+
+GET {{k8}}/api/v1/healthCheck/ping
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+###  Working 
+
+GET {{k8}}/api/v2/mointor/health
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/cdl/api/v1/featureflags/BusinessObjects.enabled
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+####
+GET {{k8}}/cdl/api/v1/configuration/getConfiguration
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/cdl/api/v1/metadata/fetchAllMetadata
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/cdl/api/v1/configuration/sftp-account/connection-details
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/cdl/api/v1/configuration/sftp-account/public-key/check-if-exist
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+POST {{k8}}/cdl/api/v1/job/validate
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+["CUSTOMUPLOAD_DEV_20240328_203300_RFM.txt"]
+
+###
+GET {{k8}}/cdl/api/v1/download/jobDetails/35
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/cdl/api/v2/jobs/35
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+
