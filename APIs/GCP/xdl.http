@@ -1,13 +1,14 @@
 
-### CDL API Documentation  - https://g0cb.app.commissions.cloud.sap/cdl/swagger-ui/index.html#/
+### CDL API Documentation  - https://XXXX.app.commissions.cloud.sap/cdl/swagger-ui/index.html#/
 
 @k8 = https://XXX.app.commissions.cloud.sap
 @clientid = 
 @clientsecret = 
+@ias = 
 
 
 # @name login
-POST https://azr7m8zct.accounts.ondemand.com/oauth2/token?grant_type=client_credentials
+POST {{ias}}/oauth2/token?grant_type=client_credentials
 Content-Type: application/x-www-form-urlencoded
 Authorization: Basic {{clientid}}:{{clientsecret}}
 
@@ -67,7 +68,6 @@ Authorization: Bearer {{accessToken}}
 GET {{k8}}/cdl/api/v1/featureflags/BusinessObjects.enabled
 Content-Type: application/json
 Authorization: Bearer {{accessToken}}
-
 
 ####
 GET {{k8}}/cdl/api/v1/configuration/getConfiguration
