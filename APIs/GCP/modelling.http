@@ -1,1 +1,16 @@
+@clientid = 
+@clientsecret = 
+@k8 = https://XXX.app.commissions.cloud.sap
+@ias = https://XXXXX.accounts.ondemand.com
+  
+###  API Documentation
+### https://XXXX.app.commissions.cloud.sap/usersvc/admin/services/scim/v2/apidoc/#/
 
+###
+# @name login
+POST {{ias}}/oauth2/token?grant_type=client_credentials
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic {{clientid}}:{{clientsecret}}
+
+###
+@accessToken = {{login.response.body.access_token}}
