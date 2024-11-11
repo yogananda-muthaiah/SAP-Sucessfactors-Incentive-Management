@@ -8,7 +8,7 @@ Below are APIs
 * [Portal]()
 * [Admin]()
 * [SCIM]()
-* [XDL]()
+* [XDL](https://github.com/yogananda-muthaiah/SAP-Sucessfactors-Incentive-Management/blob/main/APIs/GCP/xdl.http)
 * [Odata]()
 * [DMG]()
 * [CNG]()
