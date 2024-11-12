@@ -1,4 +1,10 @@
 
+## How to identify SAP IAS / IPS tenants already provisioned or who is the Admin of your IAS/IPS ?
+
+##### Login with using your "S"  Number    ( Example ; S00000001) 
+*	https://iamtenants.accounts.cloud.sap/	
+
+
 
 ### Blogs for SAP IAS
 * https://community.sap.com/t5/technology-blogs-by-sap/know-more-about-sap-ias-scim-apis-latest/ba-p/13527075
