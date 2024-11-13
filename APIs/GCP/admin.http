@@ -1,7 +1,7 @@
 @k8 = https://XXX.app.commissions.cloud.sap
 @clientid = 
 @clientsecret = 
-@ias = 
+@ias = https://xxxxx.accounts.ondemand.com
 
 
 # @name login
