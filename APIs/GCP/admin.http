@@ -1,0 +1,122 @@
+
+
+
+
+
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/participants
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/positions
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/titles
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/positionRelationShips
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/plans
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/plans?$filter=name eq 'Manager Plan'&expand=calendar
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/rules
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/salesOrders
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/salesTransactions
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/transactionAssignments
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/credits
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/measurements
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/primaryMeasurements
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/secondaryMeasurements
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/incentives
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/commissions
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/deposits
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/payments?expand=payee,position,period,processingUnit
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/balances
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+#### ,processingUnit,position,period&skip=0&top=1
+GET {{k8}}/mtsvc/tcmp/rest/v2/appliedDeposits
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/paymentMappings
+Authorization: Bearer {{accessToken}}
+Accept-Language: en-US
+Content-Type: application/json
