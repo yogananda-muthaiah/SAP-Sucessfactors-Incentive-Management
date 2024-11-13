@@ -41,6 +41,18 @@ GET {{k8}}/mtsvc/tcmp/rest/v2/rules
 Authorization: Bearer {{accessToken}}
 
 ###
+GET {{k8}}/mtsvc/tcmp/rest/v2/formulas
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/fixedValues
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/variables
+Authorization: Bearer {{accessToken}}
+
+###
 GET {{k8}}/mtsvc/tcmp/rest/v2/salesOrders
 Authorization: Bearer {{accessToken}}
 Accept-Language: en-US
@@ -65,6 +77,16 @@ Accept-Language: en-US
 Content-Type: application/json
 
 ###
+GET {{k8}}/mtsvc/tcmp/rest/v2/credits?$filter=period/periodSeq eq 2533274790396049&inlineCount=true
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/measurements?$filter=period/periodSeq eq 2533274790396049&inlineCount=true
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
 GET {{k8}}/mtsvc/tcmp/rest/v2/measurements
 Authorization: Bearer {{accessToken}}
 Accept-Language: en-US
@@ -82,13 +104,11 @@ Authorization: Bearer {{accessToken}}
 Accept-Language: en-US
 Content-Type: application/json
 
-
 ###
 GET {{k8}}/mtsvc/tcmp/rest/v2/incentives
 Authorization: Bearer {{accessToken}}
 Accept-Language: en-US
 Content-Type: application/json
-
 
 ###
 GET {{k8}}/mtsvc/tcmp/rest/v2/commissions
@@ -122,8 +142,72 @@ Authorization: Bearer {{accessToken}}
 Accept-Language: en-US
 Content-Type: application/json
 
+
+GET {{k8}}/mtsvc/tcmp/rest/v2/calendars
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/calendarService/defaultPeriod
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+
+
 ###
 GET {{k8}}/mtsvc/tcmp/rest/v2/paymentMappings
 Authorization: Bearer {{accessToken}}
 Accept-Language: en-US
 Content-Type: application/json
+
+
+###  Undocumented APIS
+GET {{k8}}/mtsvc/tcmp/rest/v2/globalFieldNames
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+POST {{k8}}/mtsvc/tcmp/rest/v2/globalFieldNames
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+[
+    {
+        "name": "userId",
+        "description": "created using API V2",
+        "globalFieldNameDataTypeLength": "10"
+    },
+    {
+        "name": "externalUserId",
+        "description": "created using API V2",
+        "globalFieldNameDataTypeLength": "10"
+    }
+]
+
+###  Undocumented APIS
+GET {{k8}}/mtsvc/tcmp/rest/v2/paymentMappings
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+POST {{k8}}/mtsvc/tcmp/rest/v2/paymentMappings
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+[
+    {
+        "sourceTableName": "CS_Participant",
+        "globalFieldName": "userId",
+        "paymentAttribute": "genericAttribute2",
+        "sourceAttribute": "userId"
+    },
+    {
+        "sourceTableName": "CS_Participant",
+        "globalFieldName": "externalId",
+        "paymentAttribute": "genericAttribute3",
+        "sourceAttribute": "genericAttribute2"
+    }
+]
+
