@@ -64,6 +64,17 @@ Authorization: Bearer {{accessToken}}
 GET {{k8}}/mtsvc/tcmp/rest/v2/territories
 Authorization: Bearer {{accessToken}}
 
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/rateTables
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/relationalMDLTs
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/relationalMDLTs?$filter=name eq 'LT_GERMANY'
+Authorization: Bearer {{accessToken}}
 
 ###
 GET {{k8}}/mtsvc/tcmp/rest/v2/salesOrders
