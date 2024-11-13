@@ -1,1 +1,7 @@
-
+@clientid = 
+@clientsecret = 
+@k8 = https://XXX.app.commissions.cloud.sap
+@ias = https://XXXXX.accounts.ondemand.com
+  
+###  API Documentation
+### https://XXXX.app.commissions.cloud.sap/usersvc/apidoc/#
