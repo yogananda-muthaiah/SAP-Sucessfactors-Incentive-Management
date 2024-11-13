@@ -3,6 +3,11 @@
 
 * [Extension - Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
+### How to get OAuth token or enable API Authentication Token
+
+*
+*
+
 Below are APIs 
 
 * [Portal](https://github.com/yogananda-muthaiah/SAP-Sucessfactors-Incentive-Management/blob/main/APIs/GCP/portal.http)
