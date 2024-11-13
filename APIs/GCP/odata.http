@@ -1,7 +1,7 @@
 @clientid = 
 @clientsecret = 
-@k8 = https://XXX.app.commissions.cloud.sap
-@ias = https://XXXXX.accounts.ondemand.com
+@k8 = https://XXX.app.commissions.cloud.sap        ### update your tenant id
+@ias = https://XXXXX.accounts.ondemand.com         ### update your IAS domain
 
 
 ###
@@ -31,7 +31,7 @@ Content-Type: application/json
 Authorization: Bearer {{accessToken}}
 
 ###
-GET https://g0cb.app.commissions.cloud.sap/cng-pipeline/odata/Payments?$expand=Calendar
+GET {{k8}}/cng-pipeline/odata/Payments?$expand=Calendar
 Content-Type: application/json
 Authorization: Bearer {{accessToken}}
 
