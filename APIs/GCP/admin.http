@@ -41,6 +41,10 @@ GET {{k8}}/mtsvc/tcmp/rest/v2/plans?$filter=name eq 'Manager Plan'&expand=calend
 Authorization: Bearer {{accessToken}}
 
 ###
+GET {{k8}}/mtsvc/tcmp/rest/v2/planComponents
+Authorization: Bearer {{accessToken}}
+
+###
 GET {{k8}}/mtsvc/tcmp/rest/v2/rules
 Authorization: Bearer {{accessToken}}
 
