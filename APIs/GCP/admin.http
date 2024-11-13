@@ -1,9 +1,18 @@
+### CDL API Documentation  - https://XXXX.app.commissions.cloud.sap/cdl/swagger-ui/index.html#/
+
+@k8 = https://XXX.app.commissions.cloud.sap
+@clientid = 
+@clientsecret = 
+@ias = 
 
 
+# @name login
+POST {{ias}}/oauth2/token?grant_type=client_credentials
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic {{clientid}}:{{clientsecret}}
 
-
-
-
+###
+@accessToken = {{login.response.body.access_token}}
 
 ###
 GET {{k8}}/mtsvc/tcmp/rest/v2/participants
