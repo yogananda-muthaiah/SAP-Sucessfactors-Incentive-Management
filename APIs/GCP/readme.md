@@ -24,5 +24,5 @@ Below are APIs 🆕
 
 
 ### Other API tools
-* Bruno
+* Bruno https://www.usebruno.com/
 * https://hoppscotch.io/
