@@ -1,0 +1,49 @@
+
+
+
+
+
+###
+POST {{k8}}/cng-pipeline/pipeline/submitJob
+Content-Type: application/json
+Authorization: Bearer {{accessToken}} 
+
+{
+  "calendarSeq":"2251799813685249",
+  "periodSeq":"2533274790396066",
+  "processingUnitSeq":"38280596832649223",
+  "defer":false,
+  "removeStaleResults":false,
+  "stageTypeSeq":"21673573206720532",
+  "runETL":true,
+  "runDataExtracts":true,
+  "dataExtractsFileType":"PAYOUTEXTRACT",
+  "runMode":"full",
+  "onDemand":true,
+  "traceLevel":"status",
+  "command":"PipelineRun",
+  "userId":"yogananda.muthaiah@sap.com"
+}
+
+
+###
+GET {{k8}}/cng-pipeline/pipelines
+Content-Type: application/json
+Authorization: Bearer {{accessToken}} 
+
+
+###
+GET {{k8}}/cng-pipeline/pipeline/today-jobs?activity=all
+Content-Type: application/json
+Authorization: Bearer {{accessToken}} 
+
+
+###
+GET {{k8}}/cng-pipeline/pipeline/today-jobs
+Content-Type: application/json
+Authorization: Bearer {{accessToken}} 
+
+###
+GET {{k8}}/cng-pipeline/pipeline/today-jobs?activity=yoga11
+Content-Type: application/json
+Authorization: Bearer {{accessToken}} 
