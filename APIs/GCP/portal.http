@@ -5,3 +5,12 @@
   
 ###  API Documentation
 ### https://XXXX.app.commissions.cloud.sap/usersvc/apidoc/#
+
+###
+# @name login
+POST {{ias}}/oauth2/token?grant_type=client_credentials
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic {{clientid}}:{{clientsecret}}
+
+###
+@accessToken = {{login.response.body.access_token}}
