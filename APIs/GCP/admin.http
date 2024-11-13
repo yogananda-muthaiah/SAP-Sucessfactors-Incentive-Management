@@ -29,6 +29,10 @@ GET {{k8}}/mtsvc/tcmp/rest/v2/positionRelationShips
 Authorization: Bearer {{accessToken}}
 
 ###
+GET {{k8}}/mtsvc/tcmp/rest/v2/positionRelationTypes
+Authorization: Bearer {{accessToken}}
+
+###
 GET {{k8}}/mtsvc/tcmp/rest/v2/plans
 Authorization: Bearer {{accessToken}}
 
@@ -51,6 +55,15 @@ Authorization: Bearer {{accessToken}}
 ###
 GET {{k8}}/mtsvc/tcmp/rest/v2/variables
 Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/variableAssignments
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/territories
+Authorization: Bearer {{accessToken}}
+
 
 ###
 GET {{k8}}/mtsvc/tcmp/rest/v2/salesOrders
