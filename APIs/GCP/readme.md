@@ -5,8 +5,8 @@
 
 ### How to get OAuth token or enable API Authentication Token
 
-*
-*
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-k8s-openid-connect-oidc-setup-part-1/ba-p/13557699
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-k8s-api-authentication-other-endpoints-part-2/ba-p/13552681
 
 Below are APIs 
 
