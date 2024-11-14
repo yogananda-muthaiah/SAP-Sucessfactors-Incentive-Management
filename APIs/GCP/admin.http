@@ -81,6 +81,60 @@ GET {{k8}}/mtsvc/tcmp/rest/v2/relationalMDLTs?$filter=name eq 'LT_GERMANY'
 Authorization: Bearer {{accessToken}}
 
 ###
+GET {{k8}}/mtsvc/tcmp/rest/v2/products
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/products(3659174697238530)
+Authorization: Bearer {{accessToken}}
+
+###
+PUT {{k8}}/mtsvc/tcmp/rest/v2/products
+Authorization: Bearer {{accessToken}}
+
+[ 
+    {
+    "effectiveEndDate": "2200-01-01T00:00:00.000-08:00",
+    "selectorId": null,
+    "classifierId": "BBProduct3",
+    "description": null,
+    "price": null,
+    "effectiveStartDate": "2006-01-01T00:00:00.000-08:00",
+    "createDate": "2019-12-10T22:01:00.000-08:00",
+    "cost": null,
+    "businessUnits": [],
+    "genericAttribute14": null,
+    "genericAttribute15": null,
+    "classifierSeq": "3659174697238530",
+    "name": "BBProduct3"
+    }
+]
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/classifiers
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/categories
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/genericClassifiers
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/genericClassifierTypes
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/models
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/auditLogs
+Authorization: Bearer {{accessToken}}
+
+###
 GET {{k8}}/mtsvc/tcmp/rest/v2/salesOrders
 Authorization: Bearer {{accessToken}}
 Accept-Language: en-US
