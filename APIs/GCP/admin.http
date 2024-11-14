@@ -17,12 +17,7 @@ GET {{k8}}/mtsvc/tcmp/rest/v2/participants
 Authorization: Bearer {{accessToken}}
 
 ###
-GET {{k8}}/mtsvc/tcmp/rest/v2/positions
-Authorization: Bearer {{accessToken}}
-
-
-###
-POST {{k8}}/mtsvc/tcmp/rest/v2/positions
+POST {{k8}}/mtsvc/tcmp/rest/v2/participants
 Authorization: Bearer {{accessToken}}
 
 [
@@ -53,6 +48,10 @@ Authorization: Bearer {{accessToken}}
         
     }
 ]
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/positions
+Authorization: Bearer {{accessToken}}
 
 ###
 GET {{k8}}/mtsvc/tcmp/rest/v2/titles
