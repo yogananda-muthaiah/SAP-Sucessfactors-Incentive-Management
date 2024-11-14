@@ -20,6 +20,40 @@ Authorization: Bearer {{accessToken}}
 GET {{k8}}/mtsvc/tcmp/rest/v2/positions
 Authorization: Bearer {{accessToken}}
 
+
+###
+POST {{k8}}/mtsvc/tcmp/rest/v2/positions
+Authorization: Bearer {{accessToken}}
+
+[
+    {
+        "effectiveStartDate": "2020-01-01T00:00:00.000-0800",
+        "effectiveEndDate": "2200-01-01T00:00:00.000-0800",
+        "payeeId": "D00000000000001",
+        "prefix": null,
+        "suffix": null,
+        "firstName": "Yogananda",
+        "middleName": null,
+        "lastName": "Muthaiah",
+        "taxId": "DE00001010101",
+        "salary": null,
+        "hireDate": "2020-01-01T00:00:00.000-0800",
+        "terminationDate": null,
+        "userId": null,
+        "participantEmail": "yogananda.muthaiah@sap.com",
+        "preferredLanguage": null,
+        "businessUnits": [
+            {
+                "name": "<ANY>"
+            }
+        ],
+        "eventCalendar": null,
+        "createDate": null,
+        "genericAttribute1": "Germany"
+        
+    }
+]
+
 ###
 GET {{k8}}/mtsvc/tcmp/rest/v2/titles
 Authorization: Bearer {{accessToken}}
