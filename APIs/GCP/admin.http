@@ -90,11 +90,35 @@ GET {{k8}}/mtsvc/tcmp/rest/v2/fixedValues
 Authorization: Bearer {{accessToken}}
 
 ###
+GET {{k8}}/mtsvc/tcmp/rest/v2/fixedValueTypes
+Authorization: Bearer {{accessToken}}
+
+###
 GET {{k8}}/mtsvc/tcmp/rest/v2/variables
 Authorization: Bearer {{accessToken}}
 
 ###
 GET {{k8}}/mtsvc/tcmp/rest/v2/variableAssignments
+Authorization: Bearer {{accessToken}}
+
+### notworking
+GET {{k8}}/mtsvc/tcmp/rest/v2/mdltVariables
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/rateTableVariables
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/fixedValueVariables
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/territoryVariables
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/quotas
 Authorization: Bearer {{accessToken}}
 
 ###
@@ -103,14 +127,6 @@ Authorization: Bearer {{accessToken}}
 
 ###
 GET {{k8}}/mtsvc/tcmp/rest/v2/rateTables
-Authorization: Bearer {{accessToken}}
-
-###
-GET {{k8}}/mtsvc/tcmp/rest/v2/relationalMDLTs
-Authorization: Bearer {{accessToken}}
-
-###
-GET {{k8}}/mtsvc/tcmp/rest/v2/relationalMDLTs?$filter=name eq 'LT_GERMANY'
 Authorization: Bearer {{accessToken}}
 
 ###
@@ -149,6 +165,14 @@ Authorization: Bearer {{accessToken}}
 
 ###
 GET {{k8}}/mtsvc/tcmp/rest/v2/categories
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/categoryTrees
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/categoryClassifiers
 Authorization: Bearer {{accessToken}}
 
 ###
