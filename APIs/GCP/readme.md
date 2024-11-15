@@ -26,3 +26,8 @@ Below are APIs 🆕
 ### Other API tools
 * Bruno https://www.usebruno.com/
 * https://hoppscotch.io/
+
+
+
+#### SAP API Standard Guidelines for all SAP Products
+* https://help.sap.com/docs/api-style-guide/sap-api-style-guide-public/sap-api-style-guide
