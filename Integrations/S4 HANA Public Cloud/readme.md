@@ -3,7 +3,7 @@
 
 ### Standard Integration Packages
 
-*
+* [Standard Packages available](https://github.com/yogananda-muthaiah/SAP-Sucessfactors-Incentive-Management/tree/main/Integrations/CPI-Integration%20Suite)
 
 
 
