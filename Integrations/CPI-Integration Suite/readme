@@ -1,8 +1,9 @@
 
 ## Standard Packages Available for SAP Incentive Management
-* [SAP Successfactors Employee Central]
-* [SAP S/4 HANA Private Cloud]
-* [SAP Succcessfactors Territory & Quota]
+
+* [SAP Successfactors Employee Central](https://api.sap.com/package/SAPSuccessFactorsEmployeeCentralintegrationwithSAPCommissions/integrationflow)
+* [SAP S/4 HANA Private Cloud](https://api.sap.com/package/SAPS4HANAIntegrationwithSAPSuccessFactorsIncentiveManagement/integrationflow)
+* [SAP Succcessfactors Territory & Quota](https://api.sap.com/package/SAPCallidusTerritoryandQuotaIntegrationwithCommissions/integrationflow)
 
 
 
