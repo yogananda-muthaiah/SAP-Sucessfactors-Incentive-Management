@@ -2,15 +2,56 @@
 @clientsecret = 
 @k8 = https://XXX.app.commissions.cloud.sap
 @ias = https://XXXXX.accounts.ondemand.com
+@password =           ### IAS username
+@username =           ### IAS password
   
 ###  API Documentation
 ### https://XXXX.app.commissions.cloud.sap/usersvc/apidoc/#
 
-###
+
 # @name login
-POST {{ias}}/oauth2/token?grant_type=client_credentials
+POST {{ias}}/oauth2/token
 Content-Type: application/x-www-form-urlencoded
 Authorization: Basic {{clientid}}:{{clientsecret}}
 
+grant_type=password&client_id={{clientid}}&username={{username}}&password={{password}}
+
 ###
-@accessToken = {{login.response.body.access_token}}
+@accessToken = {{login.response.body.id_token}}
+
+###
+GET https://g0cb.app.commissions.cloud.sap/usersvc/CallidusPortal/services/userAdministration/allInternalUsers
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+POST https://g0cb.app.commissions.cloud.sap/usersvc/CallidusPortal/services/userAdministration/user
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{"userId":"yogananda.muthaiah@sap.com"}
+
+###
+GET https://g0cb.app.commissions.cloud.sap/usersvc/CallidusPortal/services/assignRoleService/fetch/domains?principalSeq=9&principalType=1
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET https://g0cb.app.commissions.cloud.sap/usersvc/CallidusPortal/services/assignRoleService/fetch/roles?domainType=1
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+POST https://g0cb.app.commissions.cloud.sap/usersvc/CallidusPortal/services/assignRoleService/assignRole
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{"principalSeq":9,"principalType":1,"roleSeq":"28"}
+
+
+###
+GET https://g0cb.app.commissions.cloud.sap/usersvc/CallidusPortal/services/manageRoleService/allRoles
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
