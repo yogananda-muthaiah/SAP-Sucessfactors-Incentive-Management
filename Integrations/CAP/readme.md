@@ -13,6 +13,13 @@
 * https://learning.sap.com/learning-journeys/getting-started-with-sap-cloud-application-programming-model
 
 
+## Pre-requsistes to start developing locally
+
+
+##### To Use APIs Playground - Use Visual Studio Code and Install Extension - Restclient 🆕
+Visual Studio Code
+Extension - Rest Client
+
 ### NodeJS Install
 * https://nodejs.org/en/download/package-manager
 
