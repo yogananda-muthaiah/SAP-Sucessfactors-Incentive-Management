@@ -11,3 +11,14 @@
 
 ### Learning
 * https://learning.sap.com/learning-journeys/getting-started-with-sap-cloud-application-programming-model
+
+
+### NodeJS Install
+* https://nodejs.org/en/download/package-manager
+
+### CDS NPM library
+```
+npm -g i @sap/cds-dk
+
+cds -v
+```
