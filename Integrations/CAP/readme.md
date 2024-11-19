@@ -15,12 +15,11 @@
 
 ## Pre-requsistes to start developing locally
 
-
-##### To Use APIs Playground - Use Visual Studio Code and Install Extension - Restclient 🆕
+### To Use APIs Playground - Use Visual Studio Code and Install Extension - Restclient 🆕
 Visual Studio Code
 Extension - Rest Client
 
-### NodeJS Install
+### Install NodeJS 
 * https://nodejs.org/en/download/package-manager
 
 ### CDS NPM library
