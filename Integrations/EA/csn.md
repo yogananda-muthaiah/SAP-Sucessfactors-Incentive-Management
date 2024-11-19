@@ -2,7 +2,7 @@
 ### Before you start, you need to know basics of CAP (Cloud Application Programming) & CSN (Core Schema Notation)
 
 * https://cap.cloud.sap
-
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-incentive-management-understanding-of-csn-file-amp-cli-command-to/ba-p/13942545
 
 
 
