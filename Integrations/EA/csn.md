@@ -26,6 +26,22 @@ cds init
 touch db/schema.cds
 ```
 
+### Examples ( you can copy and paste it in schema.cds)
+```
+namespace EXT;
+
+entity payments {
+
+    id: Integer;
+    name : String @Common.Label: 'GA13' @Analytics.Dimension @UI.Hidden;
+    compdate : Timestamp;
+
+    amount : Decimal @Common.Label: 'Amount' @Analytics.Measure @Aggregation.default: #SUM;
+    GENERICNUMBER5 : Decimal @Analytics.Measure @Aggregation.default: #NONE;
+}
+```
+
+
 
 ### To Generate CSN Model
 
