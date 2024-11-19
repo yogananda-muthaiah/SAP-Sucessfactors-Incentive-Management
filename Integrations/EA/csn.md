@@ -1,6 +1,7 @@
 
-### Before you start, you need to know basics of CAP (Cloud Application Programming)
+### Before you start, you need to know basics of CAP (Cloud Application Programming) & CSN (Core Schema Notation)
 
+* https://cap.cloud.sap
 
 
 
