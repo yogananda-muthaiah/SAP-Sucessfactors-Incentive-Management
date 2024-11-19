@@ -48,3 +48,7 @@ entity payments {
 ```
 cds compile db/schema.cds --to csn
 ```
+
+
+### Watch and Learn
+![Watch to Generate](https://github.com/yogananda-muthaiah/SAP-Sucessfactors-Incentive-Management/blob/main/Integrations/images/2024-11-19_16-35-38.gif)
