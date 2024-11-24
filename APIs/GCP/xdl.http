@@ -15,13 +15,17 @@ Authorization: Basic {{clientid}}:{{clientsecret}}
 ###
 @accessToken = {{login.response.body.access_token}}
 
-### working
+####  This API will provide the tenant id .. pls copy and use it in next API endpoints.
+GET {{k8}}/cdl/api/v1/configuration/getConfiguration
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
 
+### working
 POST {{k8}}/cdl/api/v1/job/getAllJobs
 Content-Type: application/json
 Authorization: Bearer {{accessToken}}
 
-{"tenant":"fa163ee8-5756-1eed-93f7-45bcf34ce16e","page":1,"size":12,
+{"tenant":"fa163ee8-5756-XXXX-45bcf34ce16e","page":1,"size":12,
 "searchCriterias":
 [{"key":"fileName","operation":"CONTAINS",
 "value":"CUSTOMUPLOAD_DEV_20240328_203300_RFM.txt"}]}
@@ -32,7 +36,7 @@ POST {{k8}}/cdl/api/v1/job/getAllJobs
 Content-Type: application/json
 Authorization: Bearer {{accessToken}}
 
-{"tenant":"fa163ee8-5756-1eed-93f7-45bcf34ce16e","page":1,"size":12}
+{"tenant":"fa163ee8-5756-1eed-XXXX-45bcf34ce16e","page":1,"size":12}
 
 ### Not Working 
 
@@ -40,7 +44,7 @@ POST {{k8}}/cdl/rest/jobService/getAllJobs
 Content-Type: application/json
 Authorization: Bearer {{accessToken}}
 
-{"tenant":"fa163ee8-5756-1eed-93f7-45bcf34ce16e","page":1,"size":12,
+{"tenant":"fa163ee8-5756-1eedXXXX-45bcf34ce16e","page":1,"size":12,
 "searchCriterias":
 [{"key":"fileName","operation":"CONTAINS",
 "value":"CUSTOMUPLOAD_DEV_20240328_203300_RFM.txt"}]}
@@ -66,11 +70,6 @@ Authorization: Bearer {{accessToken}}
 
 ###
 GET {{k8}}/cdl/api/v1/featureflags/BusinessObjects.enabled
-Content-Type: application/json
-Authorization: Bearer {{accessToken}}
-
-####
-GET {{k8}}/cdl/api/v1/configuration/getConfiguration
 Content-Type: application/json
 Authorization: Bearer {{accessToken}}
 
