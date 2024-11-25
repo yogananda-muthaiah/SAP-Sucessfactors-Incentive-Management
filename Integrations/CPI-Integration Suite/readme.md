@@ -5,7 +5,8 @@
 * [SAP S/4 HANA Private Cloud](https://api.sap.com/package/SAPS4HANAIntegrationwithSAPSuccessFactorsIncentiveManagement/integrationflow)
 * [SAP Succcessfactors Territory & Quota](https://api.sap.com/package/SAPCallidusTerritoryandQuotaIntegrationwithCommissions/integrationflow)
 
-
+## Integration Architecture Guide
+* https://community.sap.com/t5/technology-blogs-by-sap/integration-architecture-guide-updated-version-available-now/ba-p/13930016
 
 #### Custom Iflows SAP note
 
