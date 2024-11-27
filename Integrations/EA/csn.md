@@ -31,6 +31,9 @@ touch db/schema.cds
 ```
 namespace EXT;
 
+@Common.Label: 'Payments'
+@Analytics.query: false
+@Analytics.dataCategory: #CUBE
 entity payments {
 
     id: Integer;
