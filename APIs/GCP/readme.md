@@ -21,7 +21,9 @@ Below are APIs 🆕
 * [CNG]()
 
 
-
+  #### SCIM RFCs
+  * https://datatracker.ietf.org/doc/html/rfc7644
+  * https://www.rfc-editor.org/rfc/rfc7644.txt
 
 ### Other API tools
 * Bruno https://www.usebruno.com/
