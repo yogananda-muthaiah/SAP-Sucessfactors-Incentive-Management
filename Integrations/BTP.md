@@ -20,3 +20,9 @@
 * [Set Up Integration Suite Trial](https://developers.sap.com/tutorials/cp-starter-isuite-onboard-subscribe.html)
 * [Set Up SAP Build Apps on SAP BTP Trial Account](https://developers.sap.com/tutorials/build-apps-trial.html)
 * [Get Ready for Your SAP Datasphere Trial Mission](https://developers.sap.com/tutorials/data-warehouse-cloud-1-begin-trial.html)
+
+
+### Developed Apps for SPM
+* https://github.com/yogananda-muthaiah/SPM-export-import
+* https://github.com/yogananda-muthaiah/SPM-APIs
+* https://github.com/yogananda-muthaiah/SPM-Results_Extract
