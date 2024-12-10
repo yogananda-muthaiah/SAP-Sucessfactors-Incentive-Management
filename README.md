@@ -17,6 +17,7 @@
 
 
 ### 🗓 Release Calendar
+* [2025 Release Cycle](https://community.sap.com/t5/product-and-customer-updates/sap-spm-2025-release-schedule/ba-p/13945165)
 * [2024 Release Cycle](https://groups.community.sap.com/t5/product-and-customer-updates/sap-spm-2024-release-schedule/ba-p/298930)
 * [2023 Release Cycle](https://groups.community.sap.com/t5/product-and-customer-updates/sap-spm-2024-release-schedule/ba-p/298930)
 
