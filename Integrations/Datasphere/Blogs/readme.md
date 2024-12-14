@@ -11,3 +11,4 @@
 * https://community.sap.com/t5/technology-blogs-by-sap/understanding-and-documenting-the-communication-flow-in-remote-table/ba-p/13801280
 * https://community.sap.com/t5/technology-blogs-by-members/automating-sap-dsp-task-chains-with-cli-wrapping-fastapi-integration-with/ba-p/13874275
 * https://community.sap.com/t5/technology-blogs-by-sap/create-a-sql-user-with-access-to-multiple-spaces-in-sap-datasphere/ba-p/13954517
+* https://community.sap.com/t5/technology-blogs-by-members/sap-datasphere-usage-of-meta-chain/ba-p/13953299
