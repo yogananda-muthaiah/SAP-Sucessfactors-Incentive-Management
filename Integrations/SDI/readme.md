@@ -29,3 +29,6 @@
 
 
 * [SAP Commissions - What I wish I had known about 🔗Smart Data Integration -SDI](https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-commissions-what-i-wish-i-had-known-about-smart-data-integration-sdi/ba-p/13569491)
+
+### Other SDI Blogs
+* https://community.sap.com/t5/technology-blogs-by-sap/step-by-step-guide-to-creating-remote-data-in-hdi-fabric-virtual-table/ba-p/13948555
