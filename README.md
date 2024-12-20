@@ -9,6 +9,9 @@
 ### ❓Ask any questions
 * 
 
+### Onboarding Process
+* https://support.sap.com/en/product/onboarding-resource-center/sap-customer-onboarding-webcasts/sap-sales-perf-management-onboarding-webcasts.html
+
 #### Help Documentation for HyperScaler
 * https://help.sap.com/docs/SAP_Commissions_K8s?locale=en-US
 
