@@ -1,6 +1,9 @@
 
 * https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud
 
+### Influence Portal (Feature Request)
+* https://influence.sap.com/sap/ino/#/campaign/2277/ideas
+
 ### How to get SAP BTP Trail Account for 90days
 
 * https://developers.sap.com/tutorials/hcp-create-trial-account.html
