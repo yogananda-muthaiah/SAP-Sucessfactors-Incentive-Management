@@ -1,0 +1,111 @@
+### Optional ###
+@saml_aud = 
+@saml_token = 
+@auth_url = https://XXXXXXXX.authentication.us20.hana.ondemand.com/oauth/authorize
+
+
+
+  
+########## Token Based Authenticatio ############
+@token_url = https://XXXXXXXXXXXXXX.authentication.us20.hana.ondemand.com/oauth/token         
+@ea_url = https://XXXXXXXXXXXXXXm.us20.sapanalytics.cloud
+@clientid = 
+@clientsecret = 
+
+###
+# @name login
+POST {{token_url}}?grant_type=client_credentials
+Content-Type: application/json
+Authorization: Basic {{clientid}}:{{clientsecret}}
+
+###
+@accessToken = {{login.response.body.access_token}}
+
+
+###
+# @name resp
+GET {{ea_url}}/api/v1/csrf
+x-csrf-token: fetch
+x-sap-sac-custom-auth: true
+Authorization: Bearer {{accessToken}}
+
+
+@csrfToken = {{resp.response.headers.x-csrf-token}}
+###
+
+###
+GET {{ea_url}}/api/v1/scim/Users
+Authorization: Bearer {{accessToken}}
+x-csrf-token: fetch
+x-sap-sac-custom-auth: true
+
+###
+GET {{ea_url}}/api/v2/scim/Users
+Authorization: Bearer {{accessToken}}
+x-csrf-token: fetch
+x-sap-sac-custom-auth: true
+
+###
+GET {{ea_url}}/api/v2/scim/Users/P000012
+Authorization: Bearer {{accessToken}}
+x-csrf-token: fetch
+x-sap-sac-custom-auth: true
+x-csrf-token: {{csrfToken}}
+
+###
+DELETE {{ea_url}}/api/v2/scim/Users/P000012
+Authorization: Bearer {{accessToken}}
+x-csrf-token: fetch
+x-sap-sac-custom-auth: true
+
+
+###
+GET {{ea_url}}/api/v1/scim/Groups
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+x-csrf-token: fetch
+x-sap-sac-custom-auth: true
+
+###
+GET {{ea_url}}/api/v1/stories?include=models
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+x-csrf-token: fetch
+x-sap-sac-custom-auth: true
+
+###
+GET {{ea_url}}/api/v1/Resources
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{ea_url}}/api/v1/dataexport/administration/Namespaces
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{ea_url}}/api/v1/dataexport/administration/Namespaces(NamespaceID='sac')/Providers
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+
+###   /providers/sac/<ProviderID>/AuditData   Pick from Providers
+GET {{ea_url}}/api/v1/dataexport/providers/sac/Cvjk1n1h4a6dr12dm10c07rr46o/AuditData
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{ea_url}}/api/v1/dataexport/providers/sac/sap.epm:BestRunJuice_SampleModel/
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+
+###
+GET {{ea_url}}/api/v1/dataexport/providers/sac/sap.epm:BestRunJuice_SampleModel/FactData
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{ea_url}}/api/v1/dataexport/providers/sac/sap.epm:BestRunJuice_SampleModel/FactData?$filter=Account_BestRunJ_sold eq 'Quantity_sold' and Product_3e315003an eq 'PD1'
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
