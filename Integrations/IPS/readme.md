@@ -3,7 +3,7 @@
 
 * https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/provisioning-systems?locale=en-US
 
-### Design to be in place
+### Design to be in place (Top-Down Sync)
 ![image](https://github.com/yogananda-muthaiah/SAP-Sucessfactors-Incentive-Management/blob/main/Integrations/images/Untitled%20(10).png)
 
 
