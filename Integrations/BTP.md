@@ -1,4 +1,4 @@
-
+### SAP BTP Documentation
 * https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud
 
 ### Influence Portal (Feature Request)
@@ -25,7 +25,7 @@
 * [Get Ready for Your SAP Datasphere Trial Mission](https://developers.sap.com/tutorials/data-warehouse-cloud-1-begin-trial.html)
 
 
-### Developed Apps for SPM
+### Developed Apps for SAP Incentive Management (Extensions)
 * https://github.com/yogananda-muthaiah/SPM-export-import
 * https://github.com/yogananda-muthaiah/SPM-APIs
 * https://github.com/yogananda-muthaiah/SPM-Results_Extract
