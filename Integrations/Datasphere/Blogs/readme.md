@@ -13,3 +13,6 @@
 * https://community.sap.com/t5/technology-blogs-by-sap/create-a-sql-user-with-access-to-multiple-spaces-in-sap-datasphere/ba-p/13954517
 * https://community.sap.com/t5/technology-blogs-by-members/sap-datasphere-usage-of-meta-chain/ba-p/13953299
 * https://community.sap.com/t5/technology-blogs-by-sap/connect-sap-web-intelligence-to-sap-datasphere-analytic-models-using-oauth/ba-p/13579472
+* https://community.sap.com/t5/technology-blogs-by-members/consuming-data-from-azure-data-lake-storage-to-datasphere/ba-p/13970475
+* https://community.sap.com/t5/technology-blogs-by-members/consuming-data-from-databricks-to-datasphere/ba-p/13970398
+
