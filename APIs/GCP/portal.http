@@ -55,3 +55,45 @@ Authorization: Bearer {{accessToken}}
 GET {{k8}}/usersvc/CallidusPortal/services/manageRoleService/allRoles
 Content-Type: application/json
 Authorization: Bearer {{accessToken}}
+
+###
+POST {{k8}}/usersvc/CallidusPortal/services/userIdUpdate/executeUpdate/
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{
+  "currentUserId":"test",
+  "newUserId":"test1"
+}
+
+### Update Users
+POST {{k8}}/usersvc/CallidusPortal/services/userIdUpdate/bulkUpdate/ 
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+[
+    {
+        "currentUserId": "test1",
+        "newUserId": "test11"
+    },
+    {
+        "currentUserId": "test2",
+        "newUserId": "test22"
+    },
+    {
+        "currentUserId": "test3",
+        "newUserId": "test23"
+    },
+]
+
+
+###
+GET {{k8}}/usersvc/services/userIdUpdate/bulkUpdate/progress/$JOB_ID
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+GET {{k8}}p/usersvc/commissions/users/details
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
