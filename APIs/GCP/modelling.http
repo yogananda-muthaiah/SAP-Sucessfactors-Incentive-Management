@@ -14,3 +14,45 @@ Authorization: Basic {{clientid}}:{{clientsecret}}
 
 ###
 @accessToken = {{login.response.body.access_token}}
+
+###### Undocumented APIs ################
+
+
+
+####
+POST {{host}}/mtsvc/tcmp/rest/v2/models
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+[
+    {
+        "modelName":"Yoga","modelSeq":null,"calendar":{"calendarSeq":"2251799813685249"},
+        "processingUnit":{"processingUnitSeq":"38280596832649219"},
+        "modelStartPeriod":{"periodSeq":"2533274790396032"},"modelEndPeriod":{"periodSeq":"2533274790396043"},
+        "sourceStartPeriod":{"periodSeq":"2533274790396032"},"sourceEndPeriod":{"periodSeq":"2533274790396043"},
+        "status":"New","useSourcePeriodAsInput":"Transaction","useNewTransactionAsInput":false,
+        "budgetType":"Absolute"
+    }
+]
+
+###
+POST {{host}}/mtsvc/tcmp/rest/v2/modeling/plans
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+[
+    {
+        "modelSeq":"42502721483310017",
+        "ruleElementOwnerSeq":"6473924464356001",
+        "effectiveStartDate":"2015-01-01T00:00:00.000+00:00",
+        "effectiveEndDate":"2200-01-01T00:00:00.000+00:00"
+    }
+]
+
+
+###
+POST {{host}}/cng-pipeline/pipeline/submitJob
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{"command":"ModelRun","modelSeq":"42502721483310017","traceLevel":"interval"}
