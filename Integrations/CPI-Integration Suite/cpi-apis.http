@@ -1,0 +1,40 @@
+@clientid = 
+@clientsecret = 
+@cpi = 
+@tokenurl = https://XXXXX.authentication.XXX.hana.ondemand.com/oauth/token
+
+
+
+###
+# @name login
+POST {{tokenurl}}?grant_type=client_credentials
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic {{clientid}}:{{clientsecret}}
+
+
+###
+GET {{cpi}}/rest/api/v1/metering/usage/date-range?startDate=2024-12-01&endDate=2024-12-29&runtimeLocationId=cloudintegration
+
+GET {{cpi}}/rest/api/v1/metering/usage/specific-date?date=2024-12-01&download=false&runtimeLocationId=cloudintegration
+
+
+GET {{cpi}}/odata/api/v1/MessageProcessingLogs('AGdy2cTTRkeccPj68oECyVO1QzKN')/Runs?$format=json&$top=100&$inlinecount=allpages
+  
+GET {{cpi}}/odata/api/v1/MessageProcessingLogs('AGdy2cTTRkeccPj68oECyVO1QzKN')/CustomHeaderProperties?$format=json&$inlinecount=allpages
+  
+GET {{cpi}}/odata/api/v1/MessageProcessingLogs?$format=json&$filter=MessageGuid%20eq%20%27AGdy2cTTRkeccPj68oECyVO1QzKN%27
+  
+GET {{cpi}}/odata/api/v1/MessageProcessingLogs/$count?$filter=LogEnd%20ge%20datetime%272024-12-30T16:35:52%27%20and%20LogStart%20le%20datetime%272024-12-30T17:35:52%2
+
+
+{{cpi}}/api/1.0/workspace?$metadata
+{{cpi}}/api/1.0/notifications?%24tenant=fanuc-shared-services-qas&%24resType=ContentPackage
+
+
+{{cpi}}/api/v1/resourceusage/user-info
+{{cpi}}/api/v1/resourceusage?type=files-content-filesize-max&time=hourly&from=2024-12-29T17:00:00.000Z&to=2024-12-30T17:00:00.000Z&timezoneid=Europe/Berlin
+{{cpi}}/api/v1/resourceusage?type=mon-db-table-size&time=hourly&from=2024-12-29T17:00:00.000Z&to=2024-12-30T17:00:00.000Z&timezoneid=Europe/Berlin
+
+
+
+/Operations/com.sap.it.km.api.commands.SecurityMaterialsListCommand
