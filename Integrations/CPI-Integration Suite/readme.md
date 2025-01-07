@@ -12,3 +12,7 @@
 
 * https://me.sap.com/notes/2942344/E
 * https://me.sap.com/notes/3461268/E
+
+
+### Migration Guide and Checklist
+* https://community.sap.com/t5/technology-blogs-by-members/migration-checklist-sap-po-to-sap-integration-suite-cloud-integration/ba-p/13977542
