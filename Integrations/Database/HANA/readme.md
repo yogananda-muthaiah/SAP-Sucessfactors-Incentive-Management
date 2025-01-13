@@ -129,7 +129,7 @@ and to_int(to_varchar("STATEMENT_START_TIME",'HH24′))
 between 8 and 17 –business hours
 order by 3 desc;
 ```
-
+> To Check Expensive SQL Statements
 ```sql
 select * from M_PREPARED_STATEMENTS; 
 select * from M_ACTIVE_STATEMENTS;
@@ -152,11 +152,12 @@ CREATE TABLE "ZTABLE"
   PRIMARY KEY ("MANDT", "RELID")
 );
 ```
- 
+
+> Most Frequenqtly used
+
 ```sql
 SELECT SESSION_USER "session user" FROM DUMMY;
-SELECT TO_DATE('2010-01-12', 'YYYY-MM-DD') "to date" 
-FROM DUMMY;
+SELECT TO_DATE('2010-01-12', 'YYYY-MM-DD') "to date" FROM DUMMY;
 SELECT TRIM ('a' FROM 'aaa123456789aa') "trim both" FROM DUMMY;
 SELECT CURRENT_DATE "current date" FROM DUMMY;
 SELECT ISOWEEK (TO_DATE('2011-05-30', 'YYYY-MM-DD')) "isoweek" FROM DUMMY;
