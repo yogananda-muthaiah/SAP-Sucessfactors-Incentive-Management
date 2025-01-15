@@ -5,6 +5,11 @@
 * [SAP S/4 HANA Private Cloud](https://api.sap.com/package/SAPS4HANAIntegrationwithSAPSuccessFactorsIncentiveManagement/integrationflow)
 * [SAP Succcessfactors Territory & Quota](https://api.sap.com/package/SAPCallidusTerritoryandQuotaIntegrationwithCommissions/integrationflow)
 
+### Learning Integration Suite
+* [Developing with SAP Integration Suite](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite)
+* [Modernizing Integration with SAP Integration Suite](https://learning.sap.com/learning-journeys/modernizing-integration-with-sap-integration-suite)
+* 
+
 ## Integration Architecture Guide
 * https://community.sap.com/t5/technology-blogs-by-sap/integration-architecture-guide-updated-version-available-now/ba-p/13930016
 
