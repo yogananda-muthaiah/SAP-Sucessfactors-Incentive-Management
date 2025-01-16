@@ -4,6 +4,9 @@
 ### Influence Portal (Feature Request)
 * https://influence.sap.com/sap/ino/#/campaign/2277/ideas
 
+### Release Navigator for SAP Business Technology Platform
+* https://readiness-at-scale.enable-now.cloud.sap/pub/20230621_ras/index.html?show=book!BO_EC8330B09B97CDBE#slide!SL_120BDFE08096029D
+
 ### How to get SAP BTP Trail Account for 90days
 
 * https://developers.sap.com/tutorials/hcp-create-trial-account.html
