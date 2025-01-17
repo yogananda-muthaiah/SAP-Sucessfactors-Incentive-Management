@@ -15,3 +15,6 @@
 
 ### SAC Addins for Microsoft Office ( Powerpoint & Excel) 
 * https://community.sap.com/t5/technology-blogs-by-sap/introducing-sap-analytics-cloud-add-in-for-microsoft-powerpoint/ba-p/13768101
+
+  * https://appsource.microsoft.com/en-us/product/office/WA200000169?tab=Overview
+  * https://appsource.microsoft.com/en-us/product/office/WA200007270?tab=Overview
