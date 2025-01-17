@@ -1,4 +1,4 @@
-### EA APIs
+### Embedded Analytics APIs
 * https://github.com/yogananda-muthaiah/SAP-Sucessfactors-Incentive-Management/blob/main/APIs/GCP/EA.http
 
 ### Github Samples
