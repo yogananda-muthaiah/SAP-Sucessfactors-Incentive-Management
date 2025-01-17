@@ -11,3 +11,7 @@
 
 ### SAC Best Practices
 * https://pages.community.sap.com/topics/cloud-analytics/best-practices-troubleshooting
+
+
+### SAC Addins for Microsoft Office ( Powerpoint & Excel) 
+* https://community.sap.com/t5/technology-blogs-by-sap/introducing-sap-analytics-cloud-add-in-for-microsoft-powerpoint/ba-p/13768101
