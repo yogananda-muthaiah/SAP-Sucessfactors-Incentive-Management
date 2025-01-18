@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE stagehooks SYSTEM "../classpath/properties/StageHookDescriptor.dtd">
+<stagehooks version="1.0">
+<stagehook stagename="CreateDefaultData">
+    <prestage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </prestage>
+	<poststage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </poststage>
+</stagehook>
+<stagehook stagename="ResetFromClassify">
+    <prestage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </prestage>
+	<poststage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </poststage>
+</stagehook>
+<stagehook stagename="Classify">
+    <prestage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </prestage>
+	<poststage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </poststage>
+</stagehook>
+<stagehook stagename="Allocate">
+    <prestage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </prestage>
+	<poststage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </poststage>
+</stagehook>
+<stagehook stagename="AllocateAggregation">
+    <prestage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </prestage>
+	<poststage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </poststage>
+</stagehook>
+<stagehook stagename="Reward">
+    <prestage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </prestage>
+	<poststage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </poststage>
+</stagehook>
+<stagehook stagename="Pay">
+    <prestage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </prestage>
+	<poststage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </poststage>
+</stagehook>
+<stagehook stagename="Post">
+    <prestage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </prestage>
+	<poststage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </poststage>
+</stagehook>
+<stagehook stagename="Finalize">
+    <prestage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </prestage>
+	<poststage type="storedproc">
+        <command> <EXT>.<tenant>_SH.CALL_SH_PROC</command>
+         <pipelineArgs>
+             <name>stage</name>
+             <name>periodSeq</name>
+             <name>processingUnitSeq</name>
+         </pipelineArgs>
+    </poststage>
+</stagehook>
+</stagehooks>
+
