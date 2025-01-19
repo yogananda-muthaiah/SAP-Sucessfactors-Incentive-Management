@@ -1,0 +1,26 @@
+
+
+CREATE TABLE store_log_details (
+    startdate DATETIME,
+    enddate DATETIME,
+    date DATE
+);
+
+
+CREATE PROCEDURE EXT.log_details(IN P_TIMESTAMP TIMESTAMP, IN P_DATETIME DATETIME,IN P_DATE DATE)
+LANGUAGE SQLSCRIPT
+SQL SECURITY INVOKER
+
+AS
+BEGIN
+    INSERT INTO store_log_details (startdate, enddate, date)
+    VALUES (:P_TIMESTAMP, :P_DATETIME, :P_DATE);
+END;
+
+
+
+CALL EXT.log_details(
+    P_TIMESTAMP => '2025-01-19 10:00:00',
+    P_DATETIME => '2025-01-19 10:00:00',
+    P_DATE => '2025-01-19'
+);
