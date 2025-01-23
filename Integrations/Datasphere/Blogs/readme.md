@@ -15,5 +15,6 @@
 * https://community.sap.com/t5/technology-blogs-by-sap/connect-sap-web-intelligence-to-sap-datasphere-analytic-models-using-oauth/ba-p/13579472
 * https://community.sap.com/t5/technology-blogs-by-members/consuming-data-from-azure-data-lake-storage-to-datasphere/ba-p/13970475
 * https://community.sap.com/t5/technology-blogs-by-members/consuming-data-from-databricks-to-datasphere/ba-p/13970398
+* https://community.sap.com/t5/technology-blogs-by-members/mastering-custom-integrations-in-sap-datasphere-leveraging-open-connectors/ba-p/13990658
 * 
 
