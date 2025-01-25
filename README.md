@@ -8,13 +8,10 @@
 ### ❓Ask any questions
 * 
 
-### [Onboarding Process](https://support.sap.com/en/product/onboarding-resource-center/sap-customer-onboarding-webcasts/sap-sales-perf-management-onboarding-webcasts.html)
-#### [Help Documentation for HyperScaler](https://help.sap.com/docs/SAP_Commissions_K8s?locale=en-US)
-
-#### ✅ SAP API Business Hub  (API Documentation)
-* [API Documentation](https://api.sap.com/package/SAPCommissions/overview)
-
-### [Onboarding SPM Process](https://support.sap.com/en/product/onboarding-resource-center/spm.html)
+### 🎬 [Onboarding Process Webcast](https://support.sap.com/en/product/onboarding-resource-center/sap-customer-onboarding-webcasts/sap-sales-perf-management-onboarding-webcasts.html)
+### 📕 [Help Documentation for HyperScaler](https://help.sap.com/docs/SAP_Commissions_K8s?locale=en-US)
+### ✅ [API Documentation](https://api.sap.com/package/SAPCommissions/overview)
+### 🗞 [Onboarding SPM Process](https://support.sap.com/en/product/onboarding-resource-center/spm.html)
 ### 📚 [Incentive Management Learning Journey](https://help.sap.com/learning-journeys/0b5e2b8b46c446d1992e7680094762cd)
 ### 🧮 [Roadmap Explorer](https://roadmaps.sap.com/board?range=FIRST-LAST&PRODUCT=73555000100800001602)
 ### 🚨 [Customer Penetration Testing Request Process](https://me.sap.com/notes/3080379/E)
