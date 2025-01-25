@@ -10,4 +10,5 @@
 * https://community.sap.com/t5/technology-blogs-by-sap/enable-saml-2-0-from-sap-ias-to-sap-commissions/ba-p/13472897
 * https://community.sap.com/t5/technology-blogs-by-sap/sap-cloud-identity-services-identity-authentication-%E3%81%AE%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E7%94%BB%E9%9D%A2%E3%82%92%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E3%81%99%E3%82%8B/ba-p/13780566
 * https://community.sap.com/t5/technology-blogs-by-members/sap-cloud-identity-tenant-request-to-migrate-to-a-different-region/ba-p/13397334
+* https://community.sap.com/t5/technology-blogs-by-members/identity-and-access-management-with-microsoft-entra-part-i-managing-access/ba-p/13873276
 * https://community.sap.com/t5/technology-blogs-by-sap/setting-up-oauth-authentication-for-a-custom-mail-server-in-sap-cloud/ba-p/13931380
