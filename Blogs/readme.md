@@ -1,6 +1,8 @@
 
 ### SAP Blogs Published from Yoga 📝 
 
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/benefits-of-executing-stored-procedures-via-api-in-sap-successfactors/ba-p/13996476
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/the-future-of-ai-agents-in-sales-maximizing-incentives-and-payouts/ba-p/13996493
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-incentive-management-understanding-of-csn-file-amp-cli-command-to/ba-p/13942545
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/step-by-step-guide-establishing-on-premise-or-cloud-sftp-connectivity-in/ba-p/13605514
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-sf-incentive-management-hana-upgrade-sp-07-sdi-changes/ba-p/13583244
