@@ -1,6 +1,7 @@
 
 ### SAP Blogs Published from Yoga 📝 
 
+* https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-sales-cloud-v2-mashup-with-sap-successfactors-incentive-management/ba-p/13997885
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/benefits-of-executing-stored-procedures-via-api-in-sap-successfactors/ba-p/13996476
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/the-future-of-ai-agents-in-sales-maximizing-incentives-and-payouts/ba-p/13996493
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-incentive-management-understanding-of-csn-file-amp-cli-command-to/ba-p/13942545
