@@ -18,7 +18,8 @@
 ### After you finish your Trial & Tier Account - How to get SAP Enterprise BTP Account 
 * [SAP BTP Enterprise Accounts](https://developers.sap.com/tutorials/btp-ea-onboard-01-intro.html)
 
-
+### BTP Events Sessions
+* https://events.sap.com/sap-btp-2025/en/home
 
 ### Start Using & Learn
 
