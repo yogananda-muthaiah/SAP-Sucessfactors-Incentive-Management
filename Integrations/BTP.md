@@ -18,9 +18,7 @@
 ### After you finish your Trial & Tier Account - How to get SAP Enterprise BTP Account 
 * [SAP BTP Enterprise Accounts](https://developers.sap.com/tutorials/btp-ea-onboard-01-intro.html)
 
-### BTP Events Sessions
-* https://events.sap.com/sap-btp-2025/en/home
-
+### [BTP Events Sessions](https://events.sap.com/sap-btp-2025/en/home)
 ### Start Using & Learn
 
 * [Sign up for an SAP HANA Cloud Trial account](https://developers.sap.com/tutorials/hana-cloud-mission-trial-1.html)
@@ -28,6 +26,7 @@
 * [Set Up SAP Build Apps on SAP BTP Trial Account](https://developers.sap.com/tutorials/build-apps-trial.html)
 * [Get Ready for Your SAP Datasphere Trial Mission](https://developers.sap.com/tutorials/data-warehouse-cloud-1-begin-trial.html)
 
+### [Discovery Center](https://discovery-center.cloud.sap/)
 
 ### Developed Apps for SAP Incentive Management (Extensions)
 * https://github.com/yogananda-muthaiah/SPM-export-import
