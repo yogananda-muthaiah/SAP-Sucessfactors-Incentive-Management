@@ -9,7 +9,7 @@
 
 
 ### Influence Portal Requests
-* https://influence.sap.com%2Fsap%2Fino%2F%23%2Fcampaign%2F2277
+* https://influence.sap.com/sap/ino/#/campaign/2277
 
 ### List of Properties
 * https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/list-of-properties?locale=en-US 
