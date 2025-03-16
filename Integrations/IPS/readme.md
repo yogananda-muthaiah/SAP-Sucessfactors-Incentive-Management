@@ -8,7 +8,8 @@
 ![image](https://github.com/yogananda-muthaiah/SAP-Sucessfactors-Incentive-Management/blob/main/Integrations/images/Untitled%20(10).png)
 
 
-
+### Influence Portal Requests
+* https://influence.sap.com%2Fsap%2Fino%2F%23%2Fcampaign%2F2277
 
 ### List of Properties
 * https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/list-of-properties?locale=en-US 
