@@ -12,6 +12,7 @@
 * https://community.sap.com/t5/technology-blogs-by-members/sap-cloud-identity-tenant-request-to-migrate-to-a-different-region/ba-p/13397334
 * https://community.sap.com/t5/technology-blogs-by-members/identity-and-access-management-with-microsoft-entra-part-i-managing-access/ba-p/13873276
 * https://community.sap.com/t5/technology-blogs-by-sap/setting-up-oauth-authentication-for-a-custom-mail-server-in-sap-cloud/ba-p/13931380
+* https://community.sap.com/t5/technology-blogs-by-sap/configure-different-trust-configurations-for-the-same-identity/ba-p/13541452
 * https://community.sap.com/t5/technology-blogs-by-sap/integrating-sap-cloud-identity-services-identity-authentication-ias-with/ba-p/14040078
 * https://community.sap.com/t5/technology-blogs-by-sap/sap-cloud-identity-services-new-features-updates-for-11th-march-2025/ba-p/14045597
 * https://community.sap.com/t5/technology-blogs-by-sap/step-by-step-guide-adding-your-domain-to-trusted-domains-in-sap-ias/ba-p/14036759
