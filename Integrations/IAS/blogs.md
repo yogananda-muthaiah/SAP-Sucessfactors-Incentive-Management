@@ -17,3 +17,4 @@
 * https://community.sap.com/t5/technology-blogs-by-sap/sap-cloud-identity-services-new-features-updates-for-11th-march-2025/ba-p/14045597
 * https://community.sap.com/t5/technology-blogs-by-sap/step-by-step-guide-adding-your-domain-to-trusted-domains-in-sap-ias/ba-p/14036759
 * https://community.sap.com/t5/technology-blogs-by-sap/sap-cloud-identity-services-saml-2-0-automatic-certificate-renewal-metadata/ba-p/14029892
+* https://community.sap.com/t5/technology-blogs-by-sap/enabling-authorization-policies-in-sap-cloud-identity-services-ias-with-ams/ba-p/13972718
