@@ -1,1 +1,135 @@
+@k8 = https://XXX.app.commissions.cloud.sap
+@clientid = 
+@clientsecret = 
+@ias = https://xxxxx.accounts.ondemand.com
+
+
+# @name login
+POST {{ias}}/oauth2/token?grant_type=client_credentials
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic {{clientid}}:{{clientsecret}}
+
+###
+@accessToken = {{login.response.body.access_token}}
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageTitles
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageSalesTransactions
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageTransactionAssignments
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageSalesOrders
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageQuotas
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageProducts
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stagePositions
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stagePostalCodes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stagePositions
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stagePositionRelations
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageTransactions
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageParticipants
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageMDLTCells
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageGenericClassifiers
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageFixedValues
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageDeposits
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageCredits
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageCustomers
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageCategories
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageCategorys
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageCategoryClassifierss
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/stageCustomers
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
 
