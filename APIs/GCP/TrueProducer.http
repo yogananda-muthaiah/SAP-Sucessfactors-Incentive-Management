@@ -1,0 +1,113 @@
+@clientid = 
+@clientsecret = 
+@k8 = 
+@ias = 
+@password =       
+@username =  
+
+
+
+######################  Admin  ######################################
+###  Swagger API Documentation
+### https://XXXX.app.commissions.cloud.sap/mtsvc/tcmp/docs/index.html
+
+###
+# @name login
+POST {{ias}}/oauth2/token?grant_type=client_credentials
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic {{clientid}}:{{clientsecret}}
+
+###
+@accessToken = {{login.response.body.access_token}}
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/contractTypes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/appointmentTypes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/contractTypes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/producerTypes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/producerAddressTypes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/producerAddresses
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/producers
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/licenseTypes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/statusCodes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/licenseLines
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/licenses
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/licenseTypes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/appointments
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/jurisdictions
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/appointmentLines
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/lineOfAuthorities
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/contracts
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{k8}}/mtsvc/tcmp/rest/v2/continuingEducations
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
