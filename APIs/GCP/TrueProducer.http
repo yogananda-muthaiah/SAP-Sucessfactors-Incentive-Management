@@ -1,9 +1,9 @@
 @clientid = 
 @clientsecret = 
-@k8 = 
-@ias = 
-@password =       
-@username =  
+@k8 = https://XXX.app.commissions.cloud.sap
+@ias = https://XXXXX.accounts.ondemand.com
+@password =           ### IAS username
+@username =           ### IAS password
 
 
 
