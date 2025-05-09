@@ -10,3 +10,4 @@
 * https://community.sap.com/t5/technology-blogs-by-sap/taking-groups-to-the-next-level-with-application-specific-groups/ba-p/13956003
 * https://community.sap.com/t5/technology-blogs-by-sap/central-store-based-provisioning-the-ultimate-solution-for-application-user/ba-p/14031073
 * https://community.sap.com/t5/technology-blogs-by-sap/did-you-know-sap-support-log-assistant-2-0-self-service-portal-amp-trace/ba-p/14040237
+* https://community.sap.com/t5/technology-blog-posts-by-sap/automating-provisioning-jobs-and-job-logs-using-sap-identity-provisioning/ba-p/14077421
