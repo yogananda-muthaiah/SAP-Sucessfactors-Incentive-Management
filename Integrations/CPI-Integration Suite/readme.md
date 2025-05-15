@@ -10,6 +10,8 @@
 * [Modernizing Integration with SAP Integration Suite](https://learning.sap.com/learning-journeys/modernizing-integration-with-sap-integration-suite)
 * 
 
+### Onboarding SAP Integration Suite
+* [Live Webcasts & Previous](https://support.sap.com/en/product/onboarding-resource-center/sap-customer-onboarding-webcasts/integration.html)
 ## Integration Architecture Guide
 * https://community.sap.com/t5/technology-blogs-by-sap/integration-architecture-guide-updated-version-available-now/ba-p/13930016
 
