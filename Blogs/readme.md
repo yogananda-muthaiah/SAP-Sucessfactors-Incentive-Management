@@ -2,6 +2,7 @@
 ### SAP Blogs Published from Yoga 📝 
 
 * https://community.sap.com/t5/human-capital-management-blog-posts-by-sap/streamlining-lookup-table-generation-with-excel-vba-for-incentive/ba-p/14133976
+* https://community.sap.com/t5/human-capital-management-blog-posts-by-sap/streamlining-report-management-with-arcreps-in-sap-successfactors-incentive/ba-p/14101992
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/sap-sales-cloud-v2-mashup-with-sap-successfactors-incentive-management/ba-p/13997885
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/benefits-of-executing-stored-procedures-via-api-in-sap-successfactors/ba-p/13996476
 * https://community.sap.com/t5/human-capital-management-blogs-by-sap/the-future-of-ai-agents-in-sales-maximizing-incentives-and-payouts/ba-p/13996493
