@@ -6,6 +6,8 @@
 ### Datapshere Learning Course
 * [Learning Course](https://help.sap.com/learning-journeys/c4fcae2e2b7645109ab3315e8a7a6b10?IDs=show)
 
+### SAP Business Data Cloud Capacity Unit Estimator
+* https://datasphere-estimator-sac-sacus10.cfapps.us10.hana.ondemand.com
 
 ### Architecture Flow
 ![image](https://github.com/yogananda-muthaiah/SAP-Sucessfactors-Incentive-Management/blob/main/Integrations/Datasphere/2024-03-18_13-17-35.gif)
