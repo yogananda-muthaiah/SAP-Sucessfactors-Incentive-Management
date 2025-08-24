@@ -12,3 +12,4 @@
 * https://community.sap.com/t5/technology-blogs-by-sap/central-store-based-provisioning-the-ultimate-solution-for-application-user/ba-p/14031073
 * https://community.sap.com/t5/technology-blogs-by-sap/did-you-know-sap-support-log-assistant-2-0-self-service-portal-amp-trace/ba-p/14040237
 * https://community.sap.com/t5/technology-blog-posts-by-sap/automating-provisioning-jobs-and-job-logs-using-sap-identity-provisioning/ba-p/14077421
+* https://community.sap.com/t5/technology-blog-posts-by-sap/identity-provisioning-service-ips-assigning-custom-attributes-to-ias-users/ba-p/14189767
