@@ -10,6 +10,7 @@
 * https://community.sap.com/t5/technology-blog-posts-by-sap/configuring-sap-master-data-integration-service-for-business-partners/ba-p/13510758
 * https://community.sap.com/t5/technology-blog-posts-by-sap/configuring-sap-master-data-integration-service-for-business-partner/ba-p/13543017
 * https://github.com/SAP-samples/btp-msteams-extend-workflow/blob/main/tutorial/Step4-Configure-Cloud-Connector/README.md
+* https://community.sap.com/t5/technology-blog-posts-by-sap/client-certificate-authentication-in-sap-cloud-integration-configuration/ba-p/14058978
 
 ### Connect to Backend Cloud
 * https://community.sap.com/t5/supply-chain-management-blog-posts-by-sap/sap-ibp-new-integration-option-introducing-sap-cloud-integration-from-btp-s/ba-p/14169516
