@@ -11,6 +11,8 @@
 
 ### Connect to Backend Cloud
 * https://community.sap.com/t5/supply-chain-management-blog-posts-by-sap/sap-ibp-new-integration-option-introducing-sap-cloud-integration-from-btp-s/ba-p/14169516
+* https://community.sap.com/t5/technology-blog-posts-by-sap/use-sap-btp-integration-suite-to-integrate-s4-hana-cloud-with-third-party/ba-p/13498001
+* https://community.sap.com/t5/spend-management-blog-posts-by-members/integrating-sap-ariba-slp-with-s-4hana-public-cloud-using-sap-master-data/ba-p/14122816
 
 
 ### Event Mesh
