@@ -14,6 +14,8 @@
 * https://community.sap.com/t5/technology-blog-posts-by-sap/use-sap-btp-integration-suite-to-integrate-s4-hana-cloud-with-third-party/ba-p/13498001
 * https://community.sap.com/t5/spend-management-blog-posts-by-members/integrating-sap-ariba-slp-with-s-4hana-public-cloud-using-sap-master-data/ba-p/14122816
 * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/sap-master-data-integration-mdi-meets-sap-advanced-event-mesh-aem/ba-p/14166195
+* https://community.sap.com/t5/technology-blog-posts-by-sap/how-to-set-up-principal-propagation-in-sap-integration-suite-to-sap-s-4hana/ba-p/13522965
+* https://community.sap.com/t5/technology-blog-posts-by-sap/introducing-new-authentication-types-for-sap-s-4hana-cloud-extensibility-on/ba-p/13600503
 
 
 ### Event Mesh
