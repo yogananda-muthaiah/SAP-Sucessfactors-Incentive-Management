@@ -17,4 +17,5 @@
 * https://community.sap.com/t5/technology-blogs-by-members/consuming-data-from-databricks-to-datasphere/ba-p/13970398
 * https://community.sap.com/t5/technology-blogs-by-members/mastering-custom-integrations-in-sap-datasphere-leveraging-open-connectors/ba-p/13990658
 * https://community.sap.com/t5/technology-blog-posts-by-members/sap-datasphere-architecture-and-lessons-learned/ba-p/14189930
+* https://community.sap.com/t5/technology-blog-posts-by-sap/sap-datasphere-integration-with-sap-s-4hana-sap-cloud-connector-setup-guide/ba-p/14224459
 
